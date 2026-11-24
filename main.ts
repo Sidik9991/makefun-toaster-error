@@ -58,6 +58,22 @@ const CANDIDATES: Candidate[] = [
     title: "No Questions",
     scores: [1, 2, 1, 2],
   },
+  // Pass 2 challengers (written later, re-judged against the pass-1 field).
+  {
+    line: "Error 08: Both slots occupied by one slice. It wanted the room. I respected that.",
+    title: "It Wanted the Room",
+    scores: [1, 2, 2, 2],
+  },
+  {
+    line: "Error 44: I have browned the counter instead. The toast is fine. The toast is innocent.",
+    title: "The Toast Is Innocent",
+    scores: [1, 2, 2, 1],
+  },
+  {
+    line: "Error 16: Frozen waffle recognised as a coaster. Serving it cold, with confidence.",
+    title: "With Confidence",
+    scores: [2, 1, 2, 2],
+  },
 ];
 
 function total(c: Candidate): number {
